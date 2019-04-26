@@ -1,0 +1,154 @@
+Clases en Boostrap 3 && 4
+
+****************************La mayoria se encierra en div*****************************
+..clases para contenedores principales*********************************
+class="container-fluid"_ocupa el total del contenedor
+class="container" _Centrar contenido
+class="row" ---- agregar filas
+
+class="col-md-9" ---columna de tamaño mediano ## indica el numero de columnas
+tipos de columnas: ***************************************************
+	col-xs-# extra pequeño (celulares)
+	col-sm-# pequeño (movil-tabletas)
+	col-md-# mediano (tabletas mas grandes)
+	col-lg-# largo (computadoras de escritorio)
+	
+class="clearfix visible-sm-block" :limpiar algunos errores los sitios web por defecto... de tamaño
+class="col-md-offset-3" :desplaza columnas
+
+**********************************TIPOGRAFIA: ********************************************************
+*******************************etiquetas para texto**********************************************
+<small>Texto secundario</small>
+<mark> nos agrega subrayado en el fondo del texto
+<del> tachar el texto-borrar
+<s> tachar el texo-subrayar 
+<ins> subrayado
+<u> subrayado
+<strong> negritas
+<b> negritas
+<em> italicas, curvas
+<code> nos permite indicar algo especifico como codigo
+<pre> permite indicar codigo
+
+************************para los pie de paginas y fuentes de trabajo****************************
+<blockquote> para poner citas de texto... ej: alguna frase celebre
+<footer><cite title="fuente"> en falconmaster.com</cite></footer>
+
+******************************clases para textos*************************************************
+class="lead" nos permite obtener un parrafo mas grande
+class="text-left" para alinear el texto---center and rigth and justify
+class="text-lowercase" todo el texto en minusculas
+class="text-uppercase" todo el texto en mayuscula
+class="text-capitalize" todo el texto--primera letra en mayuscula
+class="blockquote-reverse" el texto se cambia al otro lado (fuente-footer)
+class="text-muted" para cambiar color de texto
+class="text-primary" para cambiar color de texto
+class="text-success" para cambiar color de texto
+class="text-info" para cambiar color de texto
+class="text-warning" para cambiar color de texto
+class="text-danger" para cambiar color de texto
+
+class="bg-primary" fondo al texto
+class="bg-success" fondo al texto
+class="bg-info" fondo al texto
+class="bg-warning" fondo al texto
+class="bg-danger" fondo al texto
+
+*************************************Tablas************************************************************************
+class="table" para ir dando estilo a la tabla
+class="table-striped" alterna colores de la tabla
+class="table-bordered" bordes de la tabla
+class="table-hover" efecto hover al pasa mouse
+class="table-condensed" para reducir espacio de las filas, tabla mas pequeña
+class="table-active" mostrar por defecto una fila seleccionada
+class="table-success" para poner color la fondo
+class="table-info" para poner color la fondo
+class="table-warning" para poner color la fondo
+class="table-danger" para poner color la fondo
+
+*******************************Tablas responsives***********************************************************
+class="table-responsive" se encierra la tabla en un div para volverla responsive
+
+*********************************Formularios**************************************
+label-Etiqueta-for="nombre para relacionar id"
+input-entrada type="text o file" id="para relacionar for"
+select name="" id=""-para varias opciones
+placeholder="nombre para la casilla"
+button-para boton
+
+***************Clases*********************
+select class="form-control"
+input class="form-control"
+textarea class="form-control"
+class="form-group"- encierra los formularios en un grupo
+class="form-inline" para formularios EN LINEA
+label class="sr-only" solo visible para dispositivos de lectura (screen readers)
+	se pone casi siempre con la mayoria de input, para borrar los label
+class="checkbox" para los checkbox
+class="input-group" nos permite
+class="input-group-addon" nos permite dar cuadro
+class="control-label" tenerla al 100% y permite colocar columnas col-md-10 y centrar
+class="form-horizontal" para trabajar formularios horizontales
+class="form-control-static" indicar estilo por defecto
+disabled para dejar inactivo cualquier cosa
+<fieldset disabled> para dejar inactivo todo el formulario
+class="has-success" para colorear los errores
+class="has-warning"
+class="has-error"
+class="checkbox-inline" para colocar los checkbox uno al lado del otro
+class="radio-inline" para colocar los radios uno al lado del otro
+
+
+***************Controles Soportados por Booststrap****************
+--Se les puede aplicar el "form-control"
+text
+password
+datetime
+datetime-local
+date
+month
+time
+week
+number
+email
+url
+search
+tel
+color
+
+*****************************Clases para botones*********************
+class="btn" quita los estilos por defecto y algo de espacio
+class="btn btn-default"
+class="btn btn-primary"
+class="btn btn-success"
+class="btn btn-info"
+class="btn btn-warning"
+class="btn btn-danger"
+class="btn btn-link"
+class="btn-block" se convierte en bloque
+class="active" se hace mas oscuro
+
+***************************etiquetas para botones*************************
+<button>
+<a href="">
+<input type="button" value="">
+
+
+***********************Tamaños de botones****************************
+class="btn btn-lg" grande
+class="btn btn-sm" pequeño
+class="btn btn-xs" extra pequeño
+
+*****************************Imagenes************************************
+class="img-responsive" ubica la imagen al 100% del contenedor
+class="img-rounded" agregar esquinas redondeadas
+class="img-circle" le da circulo a la imagen
+class="img-thumbnail" redondear y agregar borde
+
+*****************Clases auxiliares*********************************
+class="pull-left" desplazar hacia la izquierda
+class="pull-right" desplazar hacia la derecha
+class="clearfix" limpiar un poco, agregar en un div. Recomendado al final del elemento
+class="center-block" centrar contenedores
+class="hidden" ocultar contenido
+class="show" mostrar contenido

@@ -1,0 +1,19 @@
+header {
+    background: black;
+    color:whitesmoke;
+}
+
+.main {
+    background: aqua;
+}
+
+.color1 {
+    background: orange;
+    color: black;
+}
+
+aside {
+    background: aquamarine;
+    color: black;
+}
+
